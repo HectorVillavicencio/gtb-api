@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 
 public interface RevisionCrudRepository extends CrudRepository<Revision, Integer> {
-    List<Revision> findByIdPasienteContainingIgnoreCase(int idPasiente);
-    List<Revision> findByObservacionContainingIgnoreCase(String Observacion);
+    List<Revision> findByIdPasiente(int idPasiente);
+    List<Revision> findByObservacionContainingIgnoreCase(String observacion);
 
 }

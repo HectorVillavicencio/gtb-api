@@ -16,7 +16,7 @@ public class Revision {
     @Column(name = "iDPasiente")
     private int idPasiente;
 
-    private String Observacion;
+    private String observacion;
 
     private int fc;
 
