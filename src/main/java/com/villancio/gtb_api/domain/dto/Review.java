@@ -6,6 +6,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Review {
+    private int idReview;
+
     private int idPatient;
 
     private String Observation;
